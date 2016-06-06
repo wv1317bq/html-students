@@ -5,7 +5,7 @@ title: Student Directory
 
 <!-- based on http://git.io/vvroy -->
 <div class="row">
-  {% assign students = site.data.spring_2016 | sort %}
+  {% assign students = site.data.summer_2016 | sort %}
   {% for user_hash in students %}
     {% assign username = user_hash[0] %}
     {% assign user = user_hash[1] %}
