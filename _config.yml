@@ -1,4 +1,4 @@
-baseurl: "/students" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+baseurl: "/html-students" # The subpath of your site. Use "" if you're hosting a blog at the root level.
 url: "http://htc-ccis1301.github.io/" # the base hostname & protocol for your site
 title: "CCIS 1301 HTML"
 
