@@ -1,0 +1,50 @@
+@import "pygments-tomorrow";
+.post-content img,
+.post-excerpt-home img,
+.post-nav img {
+    @extend .img-rounded;
+}
+
+.post-content table,
+.post-excerpt-home table,
+.post-nav table {
+    @extend .table;
+    @extend .table-bordered;
+}
+
+// Add your own custom CSS here.
+
+
+#htc-button {
+    background-image: url(../assets/htc-logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 34px;
+    margin-top: 14px;
+}
+
+#htc-button:hover {
+    border-color: #464646;
+}
+
+.student {
+    
+    margin: 20px 0;
+    
+    .info {
+        display: inline-block;
+        vertical-align: top;
+    }
+    img.avatar {
+        $size: 135px;
+        display: inline-block;
+        height: $size;
+        margin-right: 10px;
+        width: $size;
+    }
+    .gh-username {
+        font-family: Helvetica, 'Segoe UI', Arial, freesans, sans-serif; // copy from GitHub
+        font-weight: bold;
+    }
+}
